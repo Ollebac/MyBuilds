@@ -1,0 +1,85 @@
+.homepage {
+  text-align: center;
+  background-color: lightgrey;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  height: auto;
+  margin: 20px;
+  background-color: pink;
+}
+
+.center_container {
+  display: flex;
+  flex-direction: row;
+}
+
+.center_section {
+  width: 50%
+}
+
+.side_section {
+  width: 25%;
+}
+
+.button {
+  width: 20%;
+  margin: 20px 2.5%;
+  display: inline-block;
+  padding: 10px 0;
+  text-align: center;
+  justify-content: center;
+  color: black;
+  background-color: azure;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 10px;
+  outline: none;
+}
+
+.side_button {
+  width: 80%;
+  padding: 10px 0;
+  margin: 20px 10%;
+}
+
+#potions {
+  background-color: purple;
+}
+
+.home_img {
+  height: 100vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  /* background-color: #282c34; */
+  min-height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+/* @keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
