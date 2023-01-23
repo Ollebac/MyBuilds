@@ -1,5 +1,5 @@
 ## About
-Within this project are 'mini' projects that are meant to knowledge of various concepts.
+Within this project are 'mini' projects that are meant to showcase my knowledge of various concepts.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
