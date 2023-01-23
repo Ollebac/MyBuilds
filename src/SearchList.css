@@ -1,0 +1,35 @@
+.search_list_page {
+  margin: 0 0 0 10px;
+}
+
+.challenge {
+  font-size: 20px;
+}
+
+.solution {
+  border: solid 3px;
+  margin: 20px 10px;
+  padding: 5px 0 15px;
+  border-color: black;
+
+  width: 20%;
+}
+
+.title {
+  margin: 10px 0;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.list_item {
+  margin-left: 15px;
+}
+
+form {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+button {
+  margin-left: 10px;
+}
