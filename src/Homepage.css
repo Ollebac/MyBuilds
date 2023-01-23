@@ -1,14 +1,8 @@
 .homepage {
   text-align: center;
-  background-color: lightgrey;
+  background-image: radial-gradient(lightgrey, black);
   display: flex;
   flex-direction: column;
-}
-
-header {
-  height: auto;
-  margin: 20px;
-  background-color: pink;
 }
 
 .center_container {
@@ -61,18 +55,12 @@ header {
   }
 }
 
-.App-header {
-  /* background-color: #282c34; */
-  min-height: 100vh;
+.app_header {
+  color: white;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
 }
 
 /* @keyframes App-logo-spin {
