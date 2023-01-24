@@ -27,22 +27,9 @@ export default function SearchList() {
   function removeSubmit(e) {
     e.preventDefault();
 
-    console.log('clicked remove');
     const removeQuery = removeRef.current.value;
-    let index = -1;
 
-    items.some((value, i) => {
-      if (removeQuery.toLowerCase() === value.toLowerCase()) {
-        index = i;
-        console.log(`Found and removed '${removeQuery}' at index: ${index}`)
-        setItems(prev => prev.filter((val, i) => i !== index));
-      }
-    });
-    
-    if (!index) {
-      console.log(`${removeQuery} is not in the list. Try again.`)
-    }
-    
+    setItems(prev => prev.filter((val) => removeQuery.toLowerCase() !== val.toLowerCase()));    
     removeRef.current.value = ''
   }
 
