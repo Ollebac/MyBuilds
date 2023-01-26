@@ -9,11 +9,11 @@ function Homepage() {
       <div className='row_container'>
         <a className='button' id="potions" href="/potionomics">Potionomics</a>
         <a className='button' id="search_list" href="/searchlist">Search List</a>
-        <a className='button' href="/">-</a>
-        <a className='button' href="/">-</a>
+        <a className='button' id="leagueoflegends" href="/leagueoflegends">Fetch League Data</a>
+        <a className='button' id="puppeteer" href="/puppetscraping">Puppet Scraping</a>
       </div>
       <div className='row_container'>
-        <a className='button' href="/">-</a>
+        <a className='button' id="my_gear" href="/mygear">My Gear</a>
         <a className='button' href="/">-</a>
         <a className='button' href="/">-</a>
         <a className='button' href="/">-</a>
