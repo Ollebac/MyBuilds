@@ -113,14 +113,12 @@ export default function Potionomics() {
   return (
     <div className='page_content'>
         <div className='page_header'>
-            <div className='potion_img_container'>
-              <img src="cauldron2.png" alt="Cauldron" id="potion_img_content" />
-            </div>
+            <img src="cauldron2.png" alt="Cauldron" id="potion_img_content" />
             <div className='page_header_text'>
-              <p>Potionomics Guide</p>
+              <p>Potionomics <br></br> Guide</p>
             </div>
         </div>
-        <hr className='page_break'></hr>
+        <hr className='page_break' />
         <div className="table_container">
           <ItemTable PotionIngredients = {potions}/>
         </div>
