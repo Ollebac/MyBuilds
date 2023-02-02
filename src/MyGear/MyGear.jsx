@@ -7,14 +7,14 @@ export default function MyGear() {
   const [appearance, setAppearance] = useState(
     <div className='init_content'>
       <p className='init_text'>Please click a combat style above to begin.</p>
-      <img className='logo' src='./gear/osrs_img.jpg' alt='Old School Runescape logo'/>
+      <img className='logo' src='../gear/osrs_img.jpg' alt='Old School Runescape logo'/>
     </div>)
 
   function meleeGear() {
     setAppearance(
       <>
-        <img className='gear_content' src='./gear/melee_equip.png'/>
-        <img className='gear_content' src='./gear/melee_stats.png'/>
+        <img className='gear_content' src='../gear/melee_equip.png'/>
+        <img className='gear_content' src='../gear/melee_stats.png'/>
       </>
     )
   }
@@ -22,8 +22,8 @@ export default function MyGear() {
   function rangeGear() {
     setAppearance(
       <>
-        <img className='gear_content' src='./gear/range_equip.png'/>
-        <img className='gear_content' src='./gear/range_stats.png'/>
+        <img className='gear_content' src='../gear/range_equip.png'/>
+        <img className='gear_content' src='../gear/range_stats.png'/>
       </>
     )
   }
@@ -31,8 +31,8 @@ export default function MyGear() {
   function magicGear() {
     setAppearance(
       <>
-        <img className='gear_content' src='./gear/magic_equip.png'/>
-        <img className='gear_content' src='./gear/magic _stats.png'/>
+        <img className='gear_content' src='../gear/magic_equip.png'/>
+        <img className='gear_content' src='../gear/magic_stats.png'/>
       </>
     )
   }

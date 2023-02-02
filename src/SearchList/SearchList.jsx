@@ -71,7 +71,7 @@ export default function SearchList() {
         <button type='submit'> Remove </button>
       </form>
       <div className='solution'>
-        <h4 className='title'> Favorite Games </h4>
+        <h4 className='search_title'> Favorite Games </h4>
         {filteredItems.map((item, index) => (
           <div className='list_item'>
             <strong> {index + 1}: </strong>

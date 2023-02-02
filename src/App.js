@@ -1,9 +1,9 @@
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 
-import Homepage from './Homepage';
-import Potionomics from './Potionomics';
-import SearchList from "./SearchList";
-import MyGear from "./MyGear";
+import Homepage from './Homepage/Homepage';
+import Potionomics from './Potionomics/Potionomics';
+import SearchList from "./SearchList/SearchList";
+import MyGear from "./MyGear/MyGear";
 
 import './App.css';
 

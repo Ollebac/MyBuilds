@@ -8,7 +8,7 @@ header {
   display: flex;
   flex-direction: column;
   background-color: black;
-  background-image: url('../public/gear/osrs_background.jpg');
+  background-image: url("../../public/gear/osrs_background.jpg");
   background-size: 60%;
   background-repeat: repeat-y;
   background-position-x: center;
