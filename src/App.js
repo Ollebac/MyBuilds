@@ -4,6 +4,7 @@ import Homepage from './Homepage/Homepage';
 import Potionomics from './Potionomics/Potionomics';
 import SearchList from "./SearchList/SearchList";
 import MyGear from "./MyGear/MyGear";
+import SiteDesign from "./SiteDesign/SiteDesign";
 
 import './App.css';
 
@@ -18,6 +19,7 @@ function App() {
         <Route path="/potionomics" element={<Potionomics />} />
         <Route path="/searchlist" element={<SearchList />} />
         <Route path="/mygear" element={<MyGear />} />
+        <Route path="/sitedesign" element={<SiteDesign />} />
       </Routes>
     </Router>
   );
