@@ -114,9 +114,9 @@ export default function Potionomics() {
     <div className='page_content'>
         <div className='page_header'>
             <img src="cauldron2.png" alt="Cauldron" id="potion_img_content" />
-            <div className='page_header_text'>
-              <p>Potionomics <br></br> Guide</p>
-            </div>
+            {/* <div className='page_header_text'> */}
+              <p className='page_header_text'>Potionomics <br></br> Guide</p>
+            {/* </div> */}
         </div>
         <hr className='page_break' />
         <div className="table_container">

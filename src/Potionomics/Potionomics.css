@@ -146,7 +146,7 @@ tbody tr:hover {
   .page_header {
     font-family: 'Chalkduster', fantasy;
     margin: auto;
-    padding-top: 30px;
+    padding: 1vw;
     width: 80%;
     height: 350px;
     display: flex;
@@ -161,10 +161,11 @@ tbody tr:hover {
   
   #potion_img_content {
     height: 350px;
+    display: block;
   }
   
   .page_header_text {
-    margin: 0 auto;
+    margin: auto;
     text-align: center;
     letter-spacing: .8rem;
     font-size: 120px;
