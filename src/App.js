@@ -6,6 +6,7 @@ import SearchList from "./SearchList/SearchList";
 import MyGear from "./MyGear/MyGear";
 import SiteDesign from "./SiteDesign/SiteDesign";
 import Shopping from "./Shopping/Shopping";
+import SkillsTest from "./PSD_SkillsTest/SkillsTest";
 
 import "./App.css";
 
@@ -24,6 +25,7 @@ function App() {
         <Route path="/mygear" element={<MyGear />} />
         <Route path="/sitedesign" element={<SiteDesign />} />
         <Route path="/shopping" element={<Shopping />} />
+        <Route path="/psd_to_html" element={<SkillsTest />} />
       </Routes>
     </Router>
   );
