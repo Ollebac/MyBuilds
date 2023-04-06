@@ -7,6 +7,7 @@ import MyGear from "./MyGear/MyGear";
 import SiteDesign from "./SiteDesign/SiteDesign";
 import Shopping from "./Shopping/Shopping";
 import SkillsTest from "./PSD_SkillsTest/SkillsTest";
+import Ajax from "./AJAX/Ajax";
 
 import "./App.css";
 
@@ -26,6 +27,7 @@ function App() {
         <Route path="/sitedesign" element={<SiteDesign />} />
         <Route path="/shopping" element={<Shopping />} />
         <Route path="/psd_to_html" element={<SkillsTest />} />
+        <Route path="/ajax" element={<Ajax />} />
       </Routes>
     </Router>
   );

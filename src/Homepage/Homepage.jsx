@@ -24,11 +24,11 @@ function Homepage() {
         <a className="button" href="/shopping">
           Shopping Cart
         </a>
-        <a className="button" href="/">
-          -
+        <a className="button" href="/psd_to_html">
+          PSD to HTML
         </a>
-        <a className="button" href="/">
-          -
+        <a className="button" href="/ajax">
+          AJAX
         </a>
         <a className="button" href="/">
           -
