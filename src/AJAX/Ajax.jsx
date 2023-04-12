@@ -8,6 +8,8 @@ const fetchData = async (url) => {
 };
 
 const Ajax = () => {
+  const [active, setActive] = useState("Intro");
+  const [items, setItems] = useState([]);
   const [country, setCountry] = useState({
     name: "United States",
     capital: "Washington D.C.",
@@ -17,11 +19,6 @@ const Ajax = () => {
     map: "https://goo.gl/maps/JqiipHgFboG3rBJh9",
     flagSrc: "https://flagcdn.com/us.svg",
   });
-
-  const [active, setActive] = useState("Intro");
-
-  const [items, setItems] = useState([]);
-
   const [currentTime, setCurrentTime] = useState("loading...");
   const [currentBitcoin, setCurrentBitcoin] = useState({
     lastUpdate: "loading...",
@@ -52,7 +49,12 @@ const Ajax = () => {
             <li>Image of Flag</li>
           </ul>
 
-          <h4>League API</h4>
+          <h4>Bitcoin API</h4>
+          <p>
+            Provides the current price of Bitcoin in USD, GBP, and EUR. The API
+            itself updates every minute at about 35 seconds. The page will
+            update every 5 minutes or on demand via a button.
+          </p>
         </div>
       </>
     );
@@ -255,7 +257,7 @@ const Ajax = () => {
               setActive("Countries");
             }}
           >
-            Countries API
+            Countries
           </li>
           <li
             className="menu_item"
