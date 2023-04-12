@@ -8,6 +8,17 @@
   /* to top right, blue, pink); */
 }
 
+.ajax_intro_container {
+  width: 100%;
+  background-color: rgb(242, 255, 252);
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.inactive {
+  display: none;
+}
+
 .header_container {
   height: 90px;
   width: 100%;
@@ -46,7 +57,9 @@
 .ajax_page_content {
   max-width: 1200px;
   margin: auto;
-  padding: 0 20px;
+  padding: 50px 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 .selector_container {
@@ -66,16 +79,15 @@
   text-align: center;
 }
 
-.country_container {
+.country_content {
   display: flex;
   flex-direction: column;
-  max-width: 1200px;
   margin: auto;
   background-color: aliceblue;
   border-radius: 20px;
 }
 
-.sidebyside {
+.split_content {
   margin: auto;
   padding: 20px;
 }
@@ -86,8 +98,8 @@
   border-bottom: 1px solid gray;
 }
 
-.country_detail_title,
-.country_details {
+.detail_title,
+.details {
   margin: 10px 10px 10px 0;
 }
 
@@ -100,12 +112,59 @@
   border-radius: 10px;
 }
 
+.side_menu {
+  display: flex;
+}
+
+.menu_item {
+  font-weight: bold;
+}
+
+.bitcoin_container {
+  width: 100%;
+  background-color: aliceblue;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.bitcoin_title_container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid black;
+}
+
+.bitcoin_title_text {
+  margin: auto 0;
+}
+
 @media screen and (min-width: 500px) {
-  .country_container {
+  .ajax_page_content {
     flex-direction: row;
   }
 
-  .sidebyside {
-    width: 40%;
+  .country_content {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .split_content {
+    width: 45%;
+  }
+
+  .side_menu {
+    min-height: 60vh;
+    min-width: 150px;
+    box-sizing: border-box;
+    flex-direction: column;
+    background-color: aliceblue;
+    margin: 0 20px 0 0;
+    padding: 20px;
+    border-radius: 20px;
+  }
+
+  .menu_item {
+    cursor: pointer;
   }
 }
